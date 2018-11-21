@@ -53,6 +53,37 @@
     color: #f66c27;
 }
 /*end css header*/
+
+/** css icon**/
+.social-icon i{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: #bbbbbb;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 20px;
+    float: right;
+
+}
+.social-icon i:hover{
+    background: #f48146;
+}
+.line-contact-info span{
+    color: red;
+}
+.social-icon .google {
+    background: #2faaf1;
+}
+.social-icon .youtobe{
+    background: #2faaf1;
+}
+.social-icon .twitter{
+    background: #f66c27;
+}
+/*end css icon*/
 .image .image-dream{
    margin-top: 70px;
     box-shadow: 30px 25px 50px 10px #eeeeee;
