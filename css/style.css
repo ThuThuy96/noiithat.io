@@ -55,11 +55,10 @@
 /*end css header*/
 .image .image-dream{
    margin-top: 70px;
+    box-shadow: 30px 25px 50px 10px #eeeeee;
+    height: auto;
+    width: 100%;
 }
-/*.dream-it-right h3{
-    text-align: center;
-    margin-left: 100px;
-}*/
 .dream{
     background: url("../image/about_bg.png");
     /*height: 750px;*/
@@ -70,8 +69,10 @@
 .dream-it-right ul {
     list-style: none;
     margin: 0px;
-    padding: 0;
+    padding: 0px;
   /* margin-right: 0px;*/
+    margin-left: 30%;
+    display: inline-block;
 }
 .dream-it-right li {
 
