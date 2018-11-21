@@ -60,18 +60,18 @@
     text-align: center;
     margin-left: 100px;
 }*/
-.dream .container .row{
+.dream{
     background: url("../image/about_bg.png");
-    height: 750px;
+    /*height: 750px;*/
     width: auto;
     margin-right: 0px;
 
 }
 .dream-it-right ul {
     list-style: none;
-    margin: 50px;
+    margin: 0px;
     padding: 0;
-   margin-right: 0px;
+  /* margin-right: 0px;*/
 }
 .dream-it-right li {
 
@@ -80,6 +80,7 @@
     padding-right: 55px;
     color: #f48146;
 }
+
 .dream-it-right p{
    margin-left: 150px;
     color: #9b9b9b;
@@ -155,10 +156,15 @@
 .help1{
     text-align: center;
     background: #eeeded;
+    height: 400px;
+    width: 80%;
+    padding: 15px 20px 50px 20px;
+
 }
 .icon-help{
-    padding-top: 20px;
+   /* padding-top: 20px;*/
     font-size: 50px;
+    margin-top: 50px;
 }
 .help1 h4{
     padding-top: 15px;
@@ -166,12 +172,14 @@
 .help2{
     text-align: center;
     background: #ffffff;
+    height: 400px;
+    width: 80%;
 }
 .help2 h4{
     padding-top: 15px;
 }
 .icon-help2{
-    padding-top: 20px;
+    padding-top: 73px;
     font-size: 40px;
 }
 .help2 p{
@@ -180,9 +188,11 @@
 .help3{
     text-align: center;
     background: #eeeded;
+    height: 400px;
+
 }
 .icon-help3{
-    padding-top: 20px;
+    padding-top: 60px;
     font-size: 50px;
 }
 .help3 h4{
