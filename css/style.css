@@ -28,6 +28,9 @@
     color: #8d8d8d;
     font-size: 20px;
 }
+.main-menu ul li a:hover{
+    color: limegreen;
+}
 .main-menu ul li a i{
     color: #8d8d8d;
     font-size: 12px;
@@ -57,11 +60,25 @@
     text-align: center;
     margin-left: 100px;
 }*/
-.dream-it-right h4{
-    margin-left: 200px;
-    color: #f66c27;
-    word-spacing: 30px;/*Khoảng cách các từ*/
-    font-size: 20px;
+.dream .container .row{
+    background: url("../image/about_bg.png");
+    height: 750px;
+    width: auto;
+    margin-right: 0px;
+
+}
+.dream-it-right ul {
+    list-style: none;
+    margin: 50px;
+    padding: 0;
+   margin-right: 0px;
+}
+.dream-it-right li {
+
+    float: left;
+    display: inline-block;
+    padding-right: 55px;
+    color: #f48146;
 }
 .dream-it-right p{
    margin-left: 150px;
@@ -69,13 +86,14 @@
     font-size: 15px;
     margin-top: 30px;
 }
-.form-dream input{
+.form-dream button{
     background: #f66c27;
     border-radius: 32px;/*thuộc tính vo tròn*/
     width: 120px;
     text-align: center;
     margin-left: 150px;
     margin-top: 50px;
+    height: 50px;
 }
 /*our project css*/
 .our-project {
